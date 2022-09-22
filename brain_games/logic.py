@@ -1,8 +1,6 @@
 from random import randint
 import prompt
-
-
-def brain_even_game(game):
+def logic(game):
     # шаг 1: поздороваться
     print('Welcome to the Brain Games!')
     # шаг 2: спросить имя
@@ -30,7 +28,7 @@ def brain_even_game(game):
     print(f'Congratulations, {name}!')
 
 
-def game():
+def is_even():
     random_number = randint(1, 200)
     if random_number % 2 == 0:
         correct_answer = 'yes'
