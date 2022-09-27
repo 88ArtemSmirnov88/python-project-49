@@ -1,5 +1,7 @@
 from random import randint
 import prompt
+
+
 def logic(game):
     # шаг 1: поздороваться
     print('Welcome to the Brain Games!')
@@ -19,10 +21,11 @@ def logic(game):
         if answer == correct_answer:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'")
+            print(f"'{answer}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
-        # шаг 7: увеличивается кол-во очков (если верно) - переход в следующий раунд
+        # шаг 7: увеличивается кол-во очков
         index += 1
         # шаг 8: игра завершается
     print(f'Congratulations, {name}!')
