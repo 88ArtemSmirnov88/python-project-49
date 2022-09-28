@@ -3,21 +3,15 @@ import prompt
 
 
 def logic(game):
-    # шаг 1: поздороваться
     print('Welcome to the Brain Games!')
-    # шаг 2: спросить имя
     name = prompt.string('May I have your name?')
-    # шаг 3: поздороваться + имя
     print(f'Hello, {name}!')
-    # шаг 4: задает вопрос нужной игры
     index = 0
     score = 3
     while index < score:
         question, correct_answer = game()
         print(question)
-        # шаг 5: читает ответ
         answer = prompt.string('Your answer: ')
-        # шаг 6: сравнение ответа с правильным
         if answer == correct_answer:
             print('Correct!')
         else:
@@ -25,9 +19,7 @@ def logic(game):
                   f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
-        # шаг 7: увеличивается кол-во очков
         index += 1
-        # шаг 8: игра завершается
     print(f'Congratulations, {name}!')
 
 
