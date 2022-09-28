@@ -9,9 +9,9 @@ def calc():
     question = (f'''What is the result of the expression?
 Question: {num_one} {operator} {num_two}''')
     if operator == '*':
-        correct_answer = f'{num_one} * {num_two}'
+        correct_answer = num_one * num_two
     elif operator == '+':
-        correct_answer = f'{num_one} + {num_two}'
+        correct_answer = num_one + num_two
     else:
-        correct_answer = f'{num_one} - {num_two}'
-    return question, correct_answer
+        correct_answer = num_one - num_two
+    return question, str(correct_answer)
