@@ -7,8 +7,8 @@ def progression():
     step = randint(1, 10)  # выбираем рандомный шаг прогрессии
     end = start + (10 * step)  # выбираем конец прогрессии
 
-    for index in range(start, end, step):
-        list.append(str(index))
+    for i in range(start, end, step):
+        list.append(str(i))
 
     limit = len(list) - 1
 
