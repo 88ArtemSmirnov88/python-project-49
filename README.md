@@ -3,9 +3,12 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/690c101b622ca0a1fdd0/maintainability)](https://codeclimate.com/github/88ArtemSmirnov88/python-project-49/maintainability)
 ### How to install:
 `python3 -m pip install --user git+https://github.com/88ArtemSmirnov88/python-project-49.git`
+### installation and dependencies by poetry:
+* build: make build
+* install: make package-install
 ### Game 1: Is That Even?
 ### start game: brain-even
-https://asciinema.org/a/RpAg4ALirq6iSboTqVmzh1yDr
+https://asciinema.org/a/wDMkubro3tCJKRQqDMwnzfKHl
 ### Game 2: Calculator
 ### start game: brain-calc
 https://asciinema.org/a/hBWARdCquQF6O2GSCSVFiupas

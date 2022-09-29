@@ -6,8 +6,8 @@ def logic(game):
     name = prompt.string('May I have your name?')
     print(f'Hello, {name}!')
     index = 0
-    score = 3
-    while index < score:
+    SCORE = 3
+    while index < SCORE:
         question, correct_answer = game()
         print(question)
         answer = prompt.string('Your answer: ')
