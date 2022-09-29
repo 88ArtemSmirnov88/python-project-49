@@ -1,6 +1,6 @@
 #!/usr/bin/env/python3
 
-from brain_games.games.calc_game import calc
+from brain_games.games.calc import calc
 from brain_games.logic import logic
 
 

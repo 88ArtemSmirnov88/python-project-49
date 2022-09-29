@@ -1,6 +1,6 @@
 #!/usr/bin/env/python
 
-from brain_games.games.prime_game import prime_number_check
+from brain_games.games.prime import prime_number_check
 from brain_games.logic import logic
 
 

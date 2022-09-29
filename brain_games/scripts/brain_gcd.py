@@ -1,6 +1,6 @@
 #!/usr/bin/env/python
 
-from brain_games.games.gcd_game import common_divisor
+from brain_games.games.gcd import common_divisor
 from brain_games.logic import logic
 
 
