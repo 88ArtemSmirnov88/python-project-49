@@ -8,7 +8,7 @@
 * install: make package-install
 ### Game 1: Is That Even?
 ### start game: brain-even
-https://asciinema.org/a/wDMkubro3tCJKRQqDMwnzfKHl
+https://asciinema.org/a/xjF6n5kzd88kF7HCaHVnP9Rg2
 ### Game 2: Calculator
 ### start game: brain-calc
 https://asciinema.org/a/hBWARdCquQF6O2GSCSVFiupas
@@ -21,5 +21,3 @@ https://asciinema.org/a/QFIHuEWjQJez5VImAEhv8lm1x
 ### Game 5: Prime Number
 ### start game: brain-prime
 https://asciinema.org/a/a8t0s72d3JLlbE3Isic7F75bs
-
-
