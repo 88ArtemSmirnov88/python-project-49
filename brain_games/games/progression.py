@@ -3,9 +3,9 @@ from random import randint
 
 def progression():
     list = []
-    start = randint(1, 20)  # выбираем начальное число прогрессии
-    step = randint(1, 10)  # выбираем рандомный шаг прогрессии
-    end = start + (10 * step)  # выбираем конец прогрессии
+    start = randint(1, 20)
+    step = randint(1, 10)
+    end = start + (10 * step)
 
     for i in range(start, end, step):
         list.append(str(i))

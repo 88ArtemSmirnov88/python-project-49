@@ -1,15 +1,14 @@
 import prompt
 
+NUMBER_OF_ROUNDS = 3
 
-SCORE = 3
 
-
-def logic(game):
+def run(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    index = 0
-    while index < SCORE:
+    count = 0
+    while count < NUMBER_OF_ROUNDS:
         question, correct_answer = game()
         print(question)
         answer = prompt.string('Your answer: ')
@@ -21,5 +20,5 @@ def logic(game):
                   f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
-        index += 1
+        count += 1
     print(f'Congratulations, {name}!')
