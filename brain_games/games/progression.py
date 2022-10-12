@@ -1,20 +1,22 @@
-from random import randint
+from random import randint, choice
 
 
-def progression():
-    list = []
-    start = randint(1, 20)
-    step = randint(1, 10)
-    end = start + (10 * step)
+DESCRIPTION = '''What number is missing in the progression?'''
 
-    for i in range(start, end, step):
-        list.append(str(i))
 
-    limit = len(list) - 1
+def make_progression():
+    initial_number = randint(1, 100)
+    delta = randint(1, 25)
+    length = 10
+    maximum_number = (delta * length) + initial_number
+    return range(initial_number, maximum_number, delta)
 
-    correct_answer_index = randint(1, limit)
-    correct_answer = list[correct_answer_index]
-    list[correct_answer_index] = ".."
-    question = (f'''What number is missing in the progression?
-Question: {' '.join(list)}''')
-    return question, correct_answer
+
+def make_question():
+    prog = make_progression()
+    secret = choice(prog)
+    progression = ' '.join([
+        '..' if num == secret else str(num) for num in prog
+    ])
+    question = f'Question: {progression}'
+    return question, str(secret)

@@ -1,11 +1,10 @@
 #!/usr/bin/env/python
 
-from brain_games.games.gcd import common_divisor
-from brain_games.engine import run
+from brain_games import games, engine
 
 
 def main():
-    run(common_divisor)
+    engine.run(games.gcd)
 
 
 if __name__ == '__main__':

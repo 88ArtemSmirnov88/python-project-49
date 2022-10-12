@@ -1,12 +1,15 @@
 from random import randint
 
 
-def is_even():
-    random_number = randint(1, 200)
-    if random_number % 2 == 0:
-        correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
-    question = (f"""Answer "yes" if the number is even, otherwise answer "no".
-    Question: {random_number}""")
-    return question, correct_answer
+DESCRIPTION = '''Answer "yes" if the number is even, otherwise answer "no".'''
+
+
+def run():
+    number = randint(1, 200)
+    question = f'Question: {number}'
+    answer = correct_answer(number)
+    return question, answer
+
+
+def correct_answer(number):
+    return 'no' if number % 2 else 'yes'

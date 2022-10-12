@@ -2,10 +2,18 @@ import math
 from random import randint
 
 
-def common_divisor():
-    num_one = randint(2, 100)
-    num_two = randint(2, 100)
-    question = (f'''Find the greatest common divisor of given numbers.
-Question: {num_one} {num_two}''')
-    correct_answer = str(math.gcd(num_one, num_two))
+DESCRIPTION = '''Find the greatest common divisor of given numbers.'''
+
+
+def make_question():
+    num1 = randint(2, 100)
+    num2 = randint(2, 100)
+    question = f'Question: {num1} {num2}'
+    correct_answer = str(math.gcd(num1, num2))
     return question, correct_answer
+
+
+def gcd(num1, num2):
+    if not num2:
+        return num1
+    return gcd(num2, num1 % num2)

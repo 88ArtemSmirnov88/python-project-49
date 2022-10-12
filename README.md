@@ -8,7 +8,7 @@
 * install: make package-install
 ### Game 1: Is That Even?
 ### start game: brain-even
-https://asciinema.org/a/xjF6n5kzd88kF7HCaHVnP9Rg2
+https://asciinema.org/a/9pcnkbyIlq31V78OKeag5D5fn
 ### Game 2: Calculator
 ### start game: brain-calc
 https://asciinema.org/a/hBWARdCquQF6O2GSCSVFiupas
