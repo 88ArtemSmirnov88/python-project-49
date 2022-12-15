@@ -1,25 +1,23 @@
-import random
-import operator
-from random import randint
+from random import randint, choice
 
 
-def generate_random_number(first=1, second=100):
-    return randint(first, second)
+DESCRIPTION = "What is the result of the expression?"
 
 
-GAME_DESCRIPTION = "What is the result of the expression?"
+def run():
+    operators = ['+', '-', '*']
+    number1 = randint(1, 10)
+    number2 = randint(1, 10)
+    sign, operation = choice(operators)
+    question = "{} {} {}".format(number1, sign, number2)
+    correct_answer = calculate(sign, number1, number2)
+    return question, str(correct_answer)
 
-ARITHMETIC_OPERATIONS = (
-    ("+", operator.add),
-    ("-", operator.sub),
-    ("*", operator.mul)
-)
 
-
-def calc():
-    first_num = generate_random_number()
-    second_num = generate_random_number()
-    sign, operation = random.choice(ARITHMETIC_OPERATIONS)
-    question = "{} {} {}".format(first_num, sign, second_num)
-    correct_answer = str(operation(first_num, second_num))
-    return question, correct_answer
+def calculate(sign, number1, number2):
+    if sign == '-':
+        return number1 - number2
+    elif sign == '+':
+        return number1 + number2
+    elif sign == '*':
+        return number1 * number2
