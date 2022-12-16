@@ -9,7 +9,7 @@ def run():
     number1 = randint(1, 10)
     number2 = randint(1, 10)
     operation = choice(operators)
-    question = "{} {} {}".format(number1, operation, number2)
+    question = f'Question: {number1} {operation} {number2}'
     correct_answer = calculate(operation, number1, number2)
     return question, str(correct_answer)
 
