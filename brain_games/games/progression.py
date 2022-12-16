@@ -12,7 +12,7 @@ def make_progression():
     return range(initial_number, maximum_number, delta)
 
 
-def make_question():
+def run():
     prog = make_progression()
     secret = choice(prog)
     progression = ' '.join([

@@ -5,7 +5,7 @@ from random import randint
 DESCRIPTION = '''Find the greatest common divisor of given numbers.'''
 
 
-def make_question():
+def run():
     num1 = randint(2, 100)
     num2 = randint(2, 100)
     question = f'Question: {num1} {num2}'

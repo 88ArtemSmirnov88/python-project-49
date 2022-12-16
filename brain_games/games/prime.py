@@ -12,7 +12,7 @@ def is_prime(number):
     return True
 
 
-def prime_number_check():
+def run():
     number = randint(1, 100)
     if is_prime(number):
         correct_answer = 'yes'

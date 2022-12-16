@@ -8,16 +8,16 @@ def run():
     operators = ['+', '-', '*']
     number1 = randint(1, 10)
     number2 = randint(1, 10)
-    sign, operation = choice(operators)
-    question = "{} {} {}".format(number1, sign, number2)
-    correct_answer = calculate(sign, number1, number2)
+    operation = choice(operators)
+    question = "{} {} {}".format(number1, operation, number2)
+    correct_answer = calculate(operation, number1, number2)
     return question, str(correct_answer)
 
 
-def calculate(sign, number1, number2):
-    if sign == '-':
+def calculate(operation, number1, number2):
+    if operation == '-':
         return number1 - number2
-    elif sign == '+':
+    elif operation == '+':
         return number1 + number2
-    elif sign == '*':
+    elif operation == '*':
         return number1 * number2
