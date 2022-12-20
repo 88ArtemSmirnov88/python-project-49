@@ -1,14 +1,15 @@
 from random import randint, choice
 
 
-DESCRIPTION = '''What number is missing in the progression?'''
+DESCRIPTION = 'What number is missing in the progression?'
+
+LENGTH = 10
 
 
 def make_progression():
     initial_number = randint(1, 100)
     delta = randint(1, 25)
-    length = 10
-    maximum_number = (delta * length) + initial_number
+    maximum_number = (delta * LENGTH) + initial_number
     return range(initial_number, maximum_number, delta)
 
 
@@ -18,5 +19,5 @@ def run():
     progression = ' '.join([
         '..' if num == secret else str(num) for num in prog
     ])
-    question = f'Question: {progression}'
+    question = f'{progression}'
     return question, str(secret)

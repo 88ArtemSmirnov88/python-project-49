@@ -11,7 +11,7 @@ def run(game):
     count = 0
     while count < NUMBER_OF_ROUNDS:
         question, correct_answer = game.run()
-        print(question)
+        print('Question:', question)
         answer = prompt.string('Your answer: ')
         if answer != correct_answer:
             print(f"'{answer}' is wrong answer ;(. "
