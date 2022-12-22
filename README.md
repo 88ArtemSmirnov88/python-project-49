@@ -1,8 +1,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/88ArtemSmirnov88/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/88ArtemSmirnov88/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/690c101b622ca0a1fdd0/maintainability)](https://codeclimate.com/github/88ArtemSmirnov88/python-project-49/maintainability)
-### How to install:
-`python3 -m pip install --user git+https://github.com/88ArtemSmirnov88/python-project-49.git`
+### Instructions for deploying a project from the repository:
+`git clone https://github.com/88ArtemSmirnov88/python-project-49.git`
 ### installation and dependencies by poetry:
 * build: make build
 * install: make package-install
