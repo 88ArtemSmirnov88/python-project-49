@@ -8,16 +8,16 @@
 * install: make package-install
 ### Game 1: Is That Even?
 #### start game: brain-even
-[![asciicast](https://asciinema.org/a/9pcnkbyIlq31V78OKeag5D5fn.png)](https://asciinema.org/a/9pcnkbyIlq31V78OKeag5D5fn)
+[![asciicast](https://asciinema.org/a/LHu3HSoEubVsgT50NyuVPnCH9.png)](https://asciinema.org/a/LHu3HSoEubVsgT50NyuVPnCH9)
 ### Game 2: Calculator
 #### start game: brain-calc
-[![asciicast](https://asciinema.org/a/hBWARdCquQF6O2GSCSVFiupas.png)](https://asciinema.org/a/hBWARdCquQF6O2GSCSVFiupas)
+[![asciicast](https://asciinema.org/a/UrMUBViQFYuML9S5yRaFUfaZy.png)](https://asciinema.org/a/UrMUBViQFYuML9S5yRaFUfaZy)
 ### Game 3: Greatest Common Divisor
 #### start game: brain-gcd
-[![asciicast](https://asciinema.org/a/gvA2YKbqxuBVjRFqvSbfxhe3y.png)](https://asciinema.org/a/gvA2YKbqxuBVjRFqvSbfxhe3y)
+[![asciicast](https://asciinema.org/a/ybVcZ68xBCuvdvDTq8asbhWMO.png)](https://asciinema.org/a/ybVcZ68xBCuvdvDTq8asbhWMO)
 ### Game 4: Progression
 #### start game: brain-progression
-[![asciicast](https://asciinema.org/a/QFIHuEWjQJez5VImAEhv8lm1x.png)](https://asciinema.org/a/QFIHuEWjQJez5VImAEhv8lm1x)
+[![asciicast](https://asciinema.org/a/FEK0nfJrPUufOHzikAaYacCvu.png)](https://asciinema.org/a/FEK0nfJrPUufOHzikAaYacCvu)
 ### Game 5: Prime Number
 #### start game: brain-prime
-[![asciicast](https://asciinema.org/a/a8t0s72d3JLlbE3Isic7F75bs.png)](https://asciinema.org/a/a8t0s72d3JLlbE3Isic7F75bs)
+[![asciicast](https://asciinema.org/a/6S9WHPEucUjrlts83U72DQQBM.png)](https://asciinema.org/a/6S9WHPEucUjrlts83U72DQQBM)
