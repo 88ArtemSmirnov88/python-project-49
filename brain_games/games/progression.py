@@ -15,6 +15,8 @@ def run():
     maximum_number = (step * PROGRESSION_LENGTH) + initial_number
     progression = make_progression(initial_number, step, maximum_number)
     hidden_element = choice(progression)
-    progression = ' '.join(['..' if item == hidden_element else str(item) for item in progression])
+    progression = ' '.join([
+        '..' if item == hidden_element else str(item) for item in progression
+    ])
     question = f'{progression}'
     return question, str(hidden_element)
