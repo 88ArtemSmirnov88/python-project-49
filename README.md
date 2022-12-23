@@ -3,9 +3,9 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/690c101b622ca0a1fdd0/maintainability)](https://codeclimate.com/github/88ArtemSmirnov88/python-project-49/maintainability)
 ### Installation:
 `git clone https://github.com/88ArtemSmirnov88/python-project-49.git`
-### Setup:
+#### Setup:
 * make install
-### Check lint:
+#### Check lint:
 
 * make lint
 ### Game 1: Is That Even?
