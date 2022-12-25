@@ -10,7 +10,7 @@ def run(game):
     print(f'Hello, {name}!')
     count = 0
     while count < NUMBER_OF_ROUNDS:
-        question, correct_answer = game.run()
+        question, correct_answer = game.generate()
         print('Question:', question)
         answer = prompt.string('Your answer: ')
         if answer != correct_answer:

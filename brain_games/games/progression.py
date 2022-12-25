@@ -9,7 +9,7 @@ def make_progression(ini_number, step, max_number):
     return range(ini_number, max_number, step)
 
 
-def run():
+def generate():
     initial_number = randint(1, 100)
     step = randint(1, 10)
     maximum_number = (step * PROGRESSION_LENGTH) + initial_number

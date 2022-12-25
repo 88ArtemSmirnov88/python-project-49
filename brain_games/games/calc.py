@@ -4,7 +4,7 @@ from random import randint, choice
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def run():
+def generate():
     operators = ['+', '-', '*']
     number1 = randint(1, 10)
     number2 = randint(1, 10)

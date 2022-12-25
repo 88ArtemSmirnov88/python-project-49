@@ -11,7 +11,7 @@ def is_prime(number):
     return True
 
 
-def run():
+def generate():
     number = randint(1, 100)
     correct_answer = 'yes' if is_prime(number) else 'no'
     question = f'{number}'
